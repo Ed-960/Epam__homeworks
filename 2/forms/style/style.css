@@ -1,0 +1,56 @@
+table,
+th,
+td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th,
+td {
+   padding: 1px 2px 1px 5px;
+   width: 90px;
+}
+
+tr {
+   margin: 3px;
+}
+
+
+
+.container {
+   width: 600px;
+   border: 3px dotted #AEAEAE;
+   margin: 0 auto;
+   padding: 2px;
+}
+
+h2 {
+   text-align: center;
+}
+
+textarea {
+   resize: none;
+}
+
+input,
+textarea,
+select {
+   border: 2px inset #B0B0B0;
+}
+
+.left_text {
+   text-align-last: right;
+   padding: 15px;
+}
+
+th,
+td {
+   padding: 4px;
+   border: 2px dotted #AEAEAE;
+
+}
+
+.left_text {
+   margin: 0 auto;
+}

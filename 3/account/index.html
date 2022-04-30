@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header__inner">
+               <a href="#" class="logo">
+                  <h2 class="header__logo-text_1">
+                     Food
+                  </h2>
+                  <h2 class="header__logo-text_2">
+                     delivery
+                  </h2>
+               </a>
+               <form class="header__form">
+                  <button class="header__btn" type="submit">
+                     Search
+                  </button>
+                  <img class="header__btn-img" src="images/search.svg">
+               </form>
+               <nav class="menu">
+                  <ul class="menu__list">
+                     <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                           Restaurants
+                        </a>
+                     </li>
+                     <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                           Deals
+                        </a>
+                     </li>
+                     <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                           My orders
+                        </a>
+                     </li>
+                  </ul>
+                  <div class="header__menu-images">
+                     <img src="images/added.svg" class="added">
+                     <img src="images/avatarka.svg" class="avatarka">
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+         <section class="page">
+            <div class="container">
+               <div class="page__inner">
+                  <aside class="aside">
+                     <h5 class="aside__head">Settings</h5>
+                     <div class="aside__items">
+                        <div class="aside__items-box">
+                           <img src="images/icon1.svg" class="aside__items-box_img">
+                           <div class="aside__items-box_info1">
+                              <p class="aside__items-box_text_1">Account</p>
+                              <p class="aside__items-box_text_2">Personal information</p>
+                           </div>
+                        </div>
+                        <div class="aside__items-box">
+                           <img src="images/icon2.svg" class="aside__items-box_img">
+                           <div class="aside__items-box_info1">
+                              <p class="aside__items-box_text_1">Address</p>
+                              <p class="aside__items-box_text_2">Shippings addresses</p>
+                           </div>
+                        </div>
+                        <div class="aside__items-box">
+                           <img src="images/icon3.svg" class="aside__items-box_img">
+                           <div class="aside__items-box_info1">
+                              <p class="aside__items-box_text_1">Payment method</p>
+                              <p class="aside__items-box_text_2">Connected credit cards</p>
+                           </div>
+                        </div>
+                        <div class="aside__items-box">
+                           <img src="images/icon4.svg" class="aside__items-box_img">
+                           <div class="aside__items-box_info1">
+                              <p class="aside__items-box_text_1">Security</p>
+                              <p class="aside__items-box_text_2">Password, 2FA</p>
+                           </div>
+                        </div>
+                     </div>
+                  </aside>
+                  <div class="page__item">
+                     <h5 class="page__item-head">Account</h5>
+                     <div class="page__item-boxes">
+                        <div class="page__item-box">
+                           <h6 class="page__box-head">Personal information</h6>
+                           <div class="page__item-info">
+                              <p class="page__item-info_avatar">Avatar</p>
+                           </div>
+                           <div class="page__item-info_box">
+                              <img src="images/avatarka.svg" class="page__item-info_img">
+                              <div class="page__item-info_left">
+                                 <span class="page__item-text_1">Change</span>
+                                 <span class="page__item-text_2">Remove</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page__item-form">
+                           <form>
+                              <div class="page__form-info">
+                                 <div>
+                                    <label class="page__form-fname">First name</label>
+                                    <input type="text" class="page__form-input" placeholder="Jane">
+                                 </div>
+                                 <div class="form__left">
+                                    <label class="page__form-fname">Last name</label>
+                                    <input type="text" class="page__form-input" placeholder="Robertson">
+                                 </div>
+                              </div>
+                              <div class="page__form-info page__form-info__bottom">
+                                 <div>
+                                    <label class="page__form-fname">Email</label>
+                                    <input type="email" class="page__form-input"
+                                       placeholder="jane.robertson@example.com">
+                                 </div>
+                                 <div class="form__left">
+                                    <label class="page__form-fname">Phone number</label>
+                                    <input type="tel" class="page__form-input" placeholder="(217) 555-0113">
+                                 </div>
+                              </div>
+                              <div class="bottom">
+                                 <h6 class="page__checkbox-head">Email notifications</h6>
+                                 <div class="checkbox">
+                                    <div class="checkbox__left">
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">New deals</label>
+                                       </div>
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">Password changes</label>
+                                       </div>
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">New restaurants</label>
+                                       </div>
+                                    </div>
+                                    <div class="checkbox__right">
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">Special offers</label>
+                                       </div>
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">Order statuses</label>
+                                       </div>
+                                       <div class="checkbox__elements">
+                                          <input type="checkbox" checked class="page__checkbox">
+                                          <label class="page__checkbox-label" for="">Newsletter</label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="line"></div>
+                              <div class="buttons">
+                                 <button class="page__form-btn_1">Log out</button>
+                                 <button class="page__form-btn_2">Discard changes</button>
+                                 <button class="page__form-btn_3">Save changes</button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+   </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

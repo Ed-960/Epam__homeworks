@@ -1,0 +1,133 @@
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   margin-left: 20px;
+}
+
+.header__info {
+   border-bottom: 1px solid #99C5D2;
+   background-color: #ADD9E6;
+}
+
+body {
+   background-color: #ADD9E6;
+}
+
+h4 {
+   margin-bottom: 10px;
+}
+
+.info {
+   background-color: white;
+   margin-top: 20px;
+   padding-bottom: 30px;
+}
+
+.main {
+   background-color: white;
+   padding-bottom: 120px;
+   padding-top: 30px;
+   margin-left: 20px;
+}
+
+.second {
+   padding-left: 100px;
+}
+
+.info__heights {
+   line-height: 0.7;
+}
+
+.map_icon {
+   float: right;
+   margin-top: -67px;
+   margin-right: 326px;
+}
+
+.map_icon img {
+   width: 60px;
+   height: 60px;
+}
+
+.main {
+   margin-top: 25px;
+}
+
+.contact__form-input {
+   border: 1px solid #DFDFDF;
+   padding: 6px 10px;
+   margin-bottom: 13px;
+   width: 25%;
+   border-radius: 6px;
+}
+
+.contact__form-area {
+   width: 50.5%;
+   border: 1px solid #DFDFDF;
+   padding: 6px 10px;
+   min-height: 100px;
+   resize: none;
+   margin-bottom: 20px;
+   display: block;
+   border-radius: 6px;
+}
+
+.contact__form-btn {
+   border: none;
+   background-color: rgb(255, 30, 30);
+   color: #fffffe;
+   border-radius: 3px;
+   padding: 7px 10px;
+   cursor: pointer;
+   margin-top: -5px;
+   border-radius: 6px;
+}
+
+.map iframe {
+   width: 250px;
+   height: 250px;
+}
+
+.contact__right {
+   float: right;
+   margin-top: -230px;
+   margin-right: 300px;
+}
+
+.contact__social {
+   display: flex;
+   margin-bottom: 20px;
+
+}
+
+ul {
+   list-style: none;
+   margin-left: -42px;
+}
+
+.git {
+   width: 36px;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+
+#tel {
+   color: #E1334E;
+}
+
+.info_email {
+   position: relative;
+   color: #13A2B2;
+}
+
+.info-email::before {
+   content: '';
+   background-image: url(images/email.png);
+   position: absolute;
+   top: 8px;
+   left: 0;
+   width: 16px;
+   height: 12px;
+}

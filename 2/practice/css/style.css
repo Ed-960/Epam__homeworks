@@ -1,0 +1,165 @@
+body {
+   font-family: 'Nunito', sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+.headline {
+   width: 386px;
+   height: 118px;
+   color: #ffffff;
+   margin-top: 3px;
+
+}
+
+.main__header-inner {
+   padding-left: 560px;
+   padding-top: 200px;
+}
+
+.img {
+   padding-left: 70px;
+}
+
+.lorem {
+   margin-top: -20px;
+   text-align: center;
+   line-height: 32px;
+   font-size: 24px;
+   font-weight: 400;
+   color: #FFFFFFB2
+}
+
+.info {
+   padding-top: 47px;
+   text-align: center;
+   background-color: #EEEEEE;
+   padding-bottom: 40px;
+}
+
+.container {
+   background-image: url(../assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+   background-repeat: no-repeat;
+   background-size: 100% 812px;
+   padding-bottom: 300px;
+}
+
+.section__headline {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 64px;
+   color: #464547;
+}
+
+.section__p1 {
+
+   height: 57px;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   color: #666666;
+   margin-top: 40px;
+
+}
+
+.section__p2 {
+   margin-top: 48px;
+}
+
+.btn {
+   width: 115px;
+   height: 36px;
+   border-radius: 18px;
+   background-color: #55c2d8;
+   border-style: none;
+   font-size: 14px;
+   line-height: 26px;
+   font-weight: 500;
+   color: #FFFFFF;
+   padding: 5px 17px 6px 17px;
+   margin-top: 42px;
+}
+
+.bottom__side {
+   text-align: center;
+   padding-bottom: 100px;
+   background-image: url(../assets/bg1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bottom_side-btn {
+   margin-top: 53px;
+   width: 150px;
+   height: 150px;
+   background-color: #39C2D7;
+   border-radius: 90px;
+   border-style: none;
+}
+
+.trangle {
+   color: #ffffff;
+   font-size: 60px;
+   padding-left: 20px;
+}
+
+.bottom__side-text {
+   margin-top: 70px;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   color: #ffffff;
+}
+
+.bottom__side-head {
+   padding-top: 80px;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 64px;
+   color: #ffffff;
+}
+
+.footer-box {
+   margin-left: 140px;
+   padding-top: 21px;
+   padding-bottom: 38px;
+
+}
+
+.footer__text {
+   margin-top: 12px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF66;
+
+}
+
+.footer_link {
+   text-decoration: none;
+   color: #FFFFFF66;
+
+}
+
+.footer {
+   background-color: #464547;
+}
+
+.footer__head {
+   font-weight: 40;
+   line-height: 16px;
+   font-size: 18px;
+   color: #ffffff;
+   letter-spacing: normal;
+}
+
+.footer__icon {
+   padding-top: 10px;
+}
+
+.info__p {
+   display: flex;
+}
